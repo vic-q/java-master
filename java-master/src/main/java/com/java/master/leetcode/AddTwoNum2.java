@@ -25,7 +25,7 @@ public class AddTwoNum2 {
     public static String addTwoNum(String s1, String s2) {
         String[] array1 = s1.split("->");
         String[] array2 = s2.split("->");
-        List<Integer> result = new ArrayList<>();
+        List<Integer> result = new ArrayList<Integer>();
         init(result, array1.length);
         for (int i = 0; i < array1.length; i++) {
             int a1 = Integer.parseInt(array1[i]);
