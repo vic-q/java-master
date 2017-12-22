@@ -114,6 +114,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../java/sharding-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../java/rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../java/apollo/pom.xml" />
       </list>
     </option>
   </component>

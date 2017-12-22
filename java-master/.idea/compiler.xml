@@ -22,11 +22,84 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="apollo-adminservice" />
+        <module name="apollo-assembly" />
+        <module name="apollo-biz" />
+        <module name="apollo-buildtools" />
+        <module name="apollo-client" />
+        <module name="apollo-common" />
+        <module name="apollo-configservice" />
+        <module name="apollo-core" />
+        <module name="apollo-demo" />
+        <module name="apollo-portal" />
         <module name="java-master" />
+        <module name="rocketmq-broker" />
+        <module name="rocketmq-client" />
+        <module name="rocketmq-common" />
+        <module name="rocketmq-example" />
+        <module name="rocketmq-filter" />
+        <module name="rocketmq-filtersrv" />
+        <module name="rocketmq-logappender" />
+        <module name="rocketmq-namesrv" />
+        <module name="rocketmq-openmessaging" />
+        <module name="rocketmq-remoting" />
+        <module name="rocketmq-srvutil" />
+        <module name="rocketmq-store" />
+        <module name="rocketmq-test" />
+        <module name="rocketmq-tools" />
+        <module name="sharding-jdbc-core" />
+        <module name="sharding-jdbc-core-spring-boot-starter" />
+        <module name="sharding-jdbc-core-spring-namespace" />
+        <module name="sharding-jdbc-orchestration" />
+        <module name="sharding-jdbc-orchestration-spring-boot-starter" />
+        <module name="sharding-jdbc-orchestration-spring-namespace" />
+        <module name="sharding-jdbc-transaction" />
+        <module name="sharding-jdbc-transaction-async-job" />
+        <module name="sharding-jdbc-transaction-storage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apollo" target="1.8" />
+      <module name="apollo-adminservice" target="1.8" />
+      <module name="apollo-assembly" target="1.8" />
+      <module name="apollo-biz" target="1.8" />
+      <module name="apollo-buildtools" target="1.8" />
+      <module name="apollo-client" target="1.7" />
+      <module name="apollo-common" target="1.8" />
+      <module name="apollo-configservice" target="1.8" />
+      <module name="apollo-core" target="1.7" />
+      <module name="apollo-demo" target="1.7" />
+      <module name="apollo-portal" target="1.8" />
       <module name="java-master" target="1.5" />
+      <module name="rocketmq-all" target="1.7" />
+      <module name="rocketmq-broker" target="1.7" />
+      <module name="rocketmq-client" target="1.6" />
+      <module name="rocketmq-common" target="1.6" />
+      <module name="rocketmq-distribution" target="1.7" />
+      <module name="rocketmq-example" target="1.7" />
+      <module name="rocketmq-filter" target="1.7" />
+      <module name="rocketmq-filtersrv" target="1.7" />
+      <module name="rocketmq-logappender" target="1.7" />
+      <module name="rocketmq-namesrv" target="1.7" />
+      <module name="rocketmq-openmessaging" target="1.7" />
+      <module name="rocketmq-remoting" target="1.6" />
+      <module name="rocketmq-srvutil" target="1.7" />
+      <module name="rocketmq-store" target="1.7" />
+      <module name="rocketmq-test" target="1.7" />
+      <module name="rocketmq-tools" target="1.7" />
+      <module name="sharding-jdbc" target="1.5" />
+      <module name="sharding-jdbc-core" target="1.7" />
+      <module name="sharding-jdbc-core-spring" target="1.5" />
+      <module name="sharding-jdbc-core-spring-boot-starter" target="1.7" />
+      <module name="sharding-jdbc-core-spring-namespace" target="1.7" />
+      <module name="sharding-jdbc-orchestration" target="1.7" />
+      <module name="sharding-jdbc-orchestration-spring" target="1.5" />
+      <module name="sharding-jdbc-orchestration-spring-boot-starter" target="1.7" />
+      <module name="sharding-jdbc-orchestration-spring-namespace" target="1.7" />
+      <module name="sharding-jdbc-transaction" target="1.7" />
+      <module name="sharding-jdbc-transaction-async-job" target="1.7" />
+      <module name="sharding-jdbc-transaction-parent" target="1.5" />
+      <module name="sharding-jdbc-transaction-storage" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
