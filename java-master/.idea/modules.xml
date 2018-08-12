@@ -2,47 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-adminservice/apollo-adminservice.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-adminservice/apollo-adminservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-assembly/apollo-assembly.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-assembly/apollo-assembly.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-biz/apollo-biz.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-biz/apollo-biz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-buildtools/apollo-buildtools.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-buildtools/apollo-buildtools.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-client/apollo-client.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-client/apollo-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-common/apollo-common.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-common/apollo-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-configservice/apollo-configservice.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-configservice/apollo-configservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-core/apollo-core.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-core/apollo-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-demo/apollo-demo.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-demo/apollo-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/apollo/apollo-portal/apollo-portal.iml" filepath="$PROJECT_DIR$/../../../java/apollo/apollo-portal/apollo-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-master.iml" filepath="$PROJECT_DIR$/java-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/rocketmq-all.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/rocketmq-all.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/broker/rocketmq-broker.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/broker/rocketmq-broker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/client/rocketmq-client.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/client/rocketmq-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/common/rocketmq-common.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/common/rocketmq-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/distribution/rocketmq-distribution.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/distribution/rocketmq-distribution.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/example/rocketmq-example.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/example/rocketmq-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/filter/rocketmq-filter.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/filter/rocketmq-filter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/filtersrv/rocketmq-filtersrv.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/filtersrv/rocketmq-filtersrv.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/logappender/rocketmq-logappender.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/logappender/rocketmq-logappender.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/namesrv/rocketmq-namesrv.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/namesrv/rocketmq-namesrv.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/openmessaging/rocketmq-openmessaging.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/openmessaging/rocketmq-openmessaging.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/remoting/rocketmq-remoting.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/remoting/rocketmq-remoting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/srvutil/rocketmq-srvutil.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/srvutil/rocketmq-srvutil.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/store/rocketmq-store.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/store/rocketmq-store.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/test/rocketmq-test.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/test/rocketmq-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/rocketmq/tools/rocketmq-tools.iml" filepath="$PROJECT_DIR$/../../../java/rocketmq/tools/rocketmq-tools.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core/sharding-jdbc-core.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core/sharding-jdbc-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core-spring/sharding-jdbc-core-spring.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core-spring/sharding-jdbc-core-spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core-spring/sharding-jdbc-core-spring-boot-starter/sharding-jdbc-core-spring-boot-starter.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core-spring/sharding-jdbc-core-spring-boot-starter/sharding-jdbc-core-spring-boot-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core-spring/sharding-jdbc-core-spring-namespace/sharding-jdbc-core-spring-namespace.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-core-spring/sharding-jdbc-core-spring-namespace/sharding-jdbc-core-spring-namespace.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration/sharding-jdbc-orchestration.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration/sharding-jdbc-orchestration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring-boot-starter/sharding-jdbc-orchestration-spring-boot-starter.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring-boot-starter/sharding-jdbc-orchestration-spring-boot-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring-namespace/sharding-jdbc-orchestration-spring-namespace.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring-namespace/sharding-jdbc-orchestration-spring-namespace.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction/sharding-jdbc-transaction.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction/sharding-jdbc-transaction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction-async-job/sharding-jdbc-transaction-async-job.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction-async-job/sharding-jdbc-transaction-async-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction-parent.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction-storage/sharding-jdbc-transaction-storage.iml" filepath="$PROJECT_DIR$/../../../java/sharding-jdbc/sharding-jdbc-transaction-parent/sharding-jdbc-transaction-storage/sharding-jdbc-transaction-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../netty-demo/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/../../netty-demo/netty-demo/netty-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../sience/sience.iml" filepath="$PROJECT_DIR$/../../sience/sience.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../sience/sience/sience.iml" filepath="$PROJECT_DIR$/../../sience/sience/sience.iml" />
     </modules>
   </component>
 </project>

@@ -6,7 +6,11 @@ package com.java.master.binary;
 
 public class Binary {
 
+    public Binary() {
+    }
+
     public static void main(String[] args) {
+        System.out.println(0x00);
     }
 
 }

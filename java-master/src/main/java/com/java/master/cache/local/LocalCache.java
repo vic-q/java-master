@@ -22,23 +22,13 @@ public class LocalCache<K, V> implements Loader<K, V> {
         this.loader = loader;
     }
 
-    @Override
     public V load(K key) {
-       return this.load(key, true);
-    }
-
-    @Override
-    public V load(K key, boolean absent) {
         while (true) {
             Future<V> future = cache.get(key);
             if (future == null) {
                 Callable<V> call = () -> loader.load(key);
                 FutureTask<V> task = new FutureTask(call);
-                if (absent) {
-                    cache.putIfAbsent(key, task);
-                } else {
-                    cache.put(key, task);
-                }
+                cache.putIfAbsent(key, task);
                 if (future == null) {
                     future = task;
                     task.run();

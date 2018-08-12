@@ -8,5 +8,4 @@ public interface Loader<K, V> {
 
     V load(K key);
 
-    V load(K key, boolean absent);
 }
